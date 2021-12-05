@@ -4,6 +4,11 @@
   box-sizing: inherit;
 }
 
+:root {
+  --color-yellow: #fdde01;
+  --color-grey-yellow: #e6e4a8;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -11,4 +16,87 @@ html {
 body {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 133rem;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.header {
+  height: 100vh;
+  background: linear-gradient(
+    105deg,
+    var(--color-yellow) 0%,
+    var(--color-yellow) 70%,
+    transparent 70%,
+    var(--color-grey-yellow)
+  );
+  padding-top: 4.4rem;
+}
+
+.header__top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.header__logo {
+  width: 25.6rem;
+}
+
+.header__logo img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.header__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.header__hotline {
+  display: flex;
+  align-items: flex-end;
+  gap: 1.6rem;
+  text-align: right;
+}
+
+.header__hotline span {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.header__hotline h4 {
+  font-size: 2.4rem;
+}
+
+.navigation {
+  margin-top: 2.8rem;
+}
+
+.navigation__item {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+}
+
+.navigation__item + .navigation__item {
+  margin-left: 5.8rem;
 }
