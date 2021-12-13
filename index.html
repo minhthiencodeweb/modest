@@ -19,7 +19,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <header class="header">
@@ -113,54 +116,56 @@
       <div class="food__list">
         <div class="background">&nbsp;</div>
         <div class="container">
-          <div class="food__item">
-            <div class="food__item-img">
-              <img src="./assets/img/food2.png" alt="Food1" />
+          <div class="food__list-container">
+            <div class="food__item">
+              <div class="food__item-img">
+                <img src="./assets/img/food2.png" alt="Food1" />
+              </div>
+
+              <div class="food__item-info">
+                <h5 class="food__item-name">Lorem ipsum dolor.</h5>
+                <p class="food__item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatum, officia.
+                </p>
+                <a href="#" class="button button--yellow food__item-order"
+                  >Order now</a
+                >
+              </div>
             </div>
 
-            <div class="food__item-info">
-              <h5 class="food__item-name">Lorem ipsum dolor.</h5>
-              <p class="food__item-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatum, officia.
-              </p>
-              <a href="#" class="button button--yellow food__item-order"
-                >Order now</a
-              >
-            </div>
-          </div>
+            <div class="food__item">
+              <div class="food__item-img">
+                <img src="./assets/img/Bread.png" alt="Bread" />
+              </div>
 
-          <div class="food__item">
-            <div class="food__item-img">
-              <img src="./assets/img/Bread.png" alt="Bread" />
-            </div>
-
-            <div class="food__item-info">
-              <h5 class="food__item-name">Lorem ipsum dolor.</h5>
-              <p class="food__item-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatum, officia.
-              </p>
-              <a href="#" class="button button--yellow food__item-order"
-                >Order now</a
-              >
-            </div>
-          </div>
-
-          <div class="food__item">
-            <div class="food__item-img">
-              <img src="./assets/img/food3.png" alt="Food3" />
+              <div class="food__item-info">
+                <h5 class="food__item-name">Lorem ipsum dolor.</h5>
+                <p class="food__item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatum, officia.
+                </p>
+                <a href="#" class="button button--yellow food__item-order"
+                  >Order now</a
+                >
+              </div>
             </div>
 
-            <div class="food__item-info">
-              <h5 class="food__item-name">Lorem ipsum dolor.</h5>
-              <p class="food__item-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatum, officia.
-              </p>
-              <a href="#" class="button button--yellow food__item-order"
->Order now</a
-              >
+            <div class="food__item">
+              <div class="food__item-img">
+                <img src="./assets/img/food3.png" alt="Food3" />
+              </div>
+
+              <div class="food__item-info">
+                <h5 class="food__item-name">Lorem ipsum dolor.</h5>
+                <p class="food__item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatum, officia.
+                </p>
+                <a href="#" class="button button--yellow food__item-order"
+                  >Order now</a
+                >
+              </div>
             </div>
           </div>
         </div>
@@ -190,7 +195,7 @@
           <img src="./assets/img/event3.png" alt="event3" />
         </div>
 
-        <div class="slider__item">
+        <!-- <div class="slider__item">
           <img src="./assets/img/event1.png" alt="event1" />
         </div>
 
@@ -200,51 +205,80 @@
 
         <div class="slider__item">
           <img src="./assets/img/event3.png" alt="event3" />
-        </div>
+        </div> -->
       </div>
     </section>
-    
 
     <div class="block_foot">
       <div class="block_main">
         <a href="#">
           <div class="block_left">
             <h3>TRY IT TODAY</h3>
-            <h2>MOST <br> POPULAR <br> PASTA</h2>
+            <h2>
+              MOST <br />
+              POPULAR <br />
+              PASTA
+            </h2>
           </div>
         </a>
         <div class="block_right">
           <a href="#">
-            <div class="img_block_top"> 
+            <div class="img_block_top">
               <h3>TRY IT TODAY</h3>
-              <h2>MORE FUN <br> MORE TASTE</h2>
+              <h2>
+                MORE FUN <br />
+                MORE TASTE
+              </h2>
             </div>
           </a>
           <a href="#">
-          <div class="img_block_bottom"> 
-            <h3>TRY IT TODAY</h3>
-            <h2>FRESH & CHILI</h2>
-          </div>
+            <div class="img_block_bottom">
+              <h3>TRY IT TODAY</h3>
+              <h2>FRESH & CHILI</h2>
+            </div>
           </a>
         </div>
       </div>
     </div>
-
 
     <h6 class="discover">Reservation</h6>
     <h2 class="section__heading">Book your table</h2>
 
     <div class="block_table">
       <div class="table_left">
-        <input type="text" name="firstName"  placeholder="Name" class="input_name"> 
-        <input type="text" name="firstName"  placeholder="Date" class="input_name"> 
-        <input type="text" name="firstName"  placeholder="People" class="input_name"> 
+        <input
+          type="text"
+          name="firstName"
+          placeholder="Name"
+          class="input_name"
+        />
+        <input
+          type="text"
+          name="firstName"
+          placeholder="Date"
+          class="input_name"
+        />
+        <input
+          type="text"
+          name="firstName"
+          placeholder="People"
+          class="input_name"
+        />
       </div>
       <div class="table_right">
-        <input type="text" name="firstName"  placeholder="Email" class="input_name"> 
-        <input type="text" name="firstName"  placeholder="Time" class="input_name"> 
-        <a href="#" class="button_find button--yellow ">find a table</a>
-
+        <input
+          type="text"
+          name="firstName"
+          placeholder="Email"
+          class="input_name"
+        />
+        <input
+          type="text"
+          name="firstName"
+          placeholder="Time"
+          class="input_name"
+        />
+        <a href="#" class="button_find button--yellow">find a table</a>
       </div>
     </div>
 
@@ -252,43 +286,75 @@
       <div class="block_end">
         <div class="block_end_left">
           <div class="block_img_end_left">
-            <img src="./assets/img/logo_endthe.png" alt="dowload" >
+            <img src="./assets/img/logo_endthe.png" alt="dowload" />
           </div>
 
           <div class="block_content_end_left">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viver ra maecenas accumsan lacus vel facilisis. </p>
-
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+              ipsum suspendisse ultrices gravida. Risus commodo viver ra
+              maecenas accumsan lacus vel facilisis.
+            </p>
           </div>
 
           <div class="the_company">
-            <p> <i class="fa fa-copyright" aria-hidden="true"></i> Company Name 2020. All rights reserved</p>
+            <p>
+              <i class="fa fa-copyright" aria-hidden="true"></i> Company Name
+              2020. All rights reserved
+            </p>
           </div>
         </div>
-
 
         <div class="block_end_right">
           <div class="location_right">
             <div class="location">
-              <img src="./assets/img/Location_Icon1.png" alt=""> 
+              <img src="./assets/img/Location_Icon1.png" alt="" />
               <p>Main Road, Building Name, Country</p>
             </div>
             <div class="email">
-              <img src="./assets/img/Email.png" alt=""> 
+              <img src="./assets/img/Email.png" alt="" />
               <p>info@companyname.com</p>
             </div>
 
             <div class="listicon">
               <ul>
-                <li><img src="./assets/img/Instagram.png" alt="" width="30" height="30"></li>
-                <li><img src="./assets/img/Facebook.png" alt="" width="30" height="30"></li>
-                <li><img src="./assets/img/Twitter.png" alt="" width="30" height="30"></li>
-                <li><img src="./assets/img/WhatsApp.png" alt="" width="30" height="30"></li>
+                <li>
+                  <img
+                    src="./assets/img/Instagram.png"
+                    alt=""
+                    width="30"
+                    height="30"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="./assets/img/Facebook.png"
+                    alt=""
+                    width="30"
+                    height="30"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="./assets/img/Twitter.png"
+                    alt=""
+                    width="30"
+                    height="30"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="./assets/img/WhatsApp.png"
+                    alt=""
+                    width="30"
+                    height="30"
+                  />
+                </li>
               </ul>
             </div>
           </div>
         </div>
-        
-
       </div>
     </footer>
 
@@ -307,12 +373,38 @@
 
     <script type="text/javascript">
       $(document).ready(function () {
+        $(window).on("resize orientationchange", function () {
+          $(".slider").slick("resize");
+        });
         $(".slider").slick({
           dots: true,
           infinite: true,
           speed: 300,
           slidesToShow: 1.65,
           centerMode: true,
+        });
+
+        $(".food__list-container").slick({
+          slidesToShow: 3,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+                infinite: true,
+              },
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+              },
+            },
+            {
+              breakpoint: 414,
+              settings: "unslick", // destroys slick
+            },
+          ],
         });
       });
     </script>

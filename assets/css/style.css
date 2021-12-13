@@ -291,10 +291,18 @@ a {
   position: relative;
 }
 
-.food__list .container {
-  display: grid;
+.food__list-container .slick-track {
+  /* display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10rem;
+  gap: 10rem; */
+}
+
+.food__list-container .slick-slide {
+  padding: 0 2rem;
+}
+
+.slick-track {
+  /* width: 100% !important; */
 }
 
 .food__list .background {
@@ -344,32 +352,38 @@ a {
 
 .slider {
   margin-top: 3.8rem;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: clip;
 }
 
-.slick-slide {
+.slider .slick-slide {
   height: 40rem;
 
   position: relative;
 }
 
-.slick-track {
+.slider .slick-track {
   display: flex;
   align-items: center;
 }
 
-.slick-slide img {
+.slider .slick-slide img {
   width: 100%;
   height: 100%;
 
   object-fit: cover;
 }
 
-.slick-slide.slick-center {
-  height: 50rem;
+.slider .slick-list {
+  padding-bottom: 4.7rem !important;
 }
 
-.slick-slide:not(.slick-center)::after {
+.slider .slick-slide.slick-center {
+  height: 50rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.slider .slick-slide:not(.slick-center)::after {
   content: "";
   display: block;
 
@@ -381,6 +395,27 @@ a {
 
   background: rgba(0, 0, 0, 0.5);
 }
+
+.slider .slick-dots {
+  position: static;
+}
+
+.slider .slick-dots li {
+  background-color: #dcdcdc;
+  border-radius: 50%;
+}
+.slider .slick-dots .slick-active {
+  background-color: #ffe001;
+}
+
+.slider .slick-dots button {
+  border-radius: 50%;
+}
+
+.slider .slick-dots button::before {
+  display: none;
+}
+
 /* phần foot */
 .block_foot {
   width: 1236px;
@@ -472,7 +507,7 @@ a {
   margin-top: 50px;
 }
 
-.input_name{
+.input_name {
   height: 64px;
   width: 377px;
   border-radius: 0.4rem;
@@ -481,7 +516,6 @@ a {
   padding: 12px 20px;
   margin: 13px 13px;
   font-size: 15px;
-
 }
 
 .button_find {
@@ -494,19 +528,13 @@ a {
   display: flex;
   margin: 13px 13px;
   align-items: center;
-  padding:12 ;
+  padding: 12;
   justify-content: center;
-
-
 }
 
 .button_find.button--yellow {
   background-color: var(--color-yellow);
 }
-
-
-
-
 
 /* phần end */
 footer .block_end {
@@ -599,4 +627,21 @@ footer .block_end {
 
 .listicon ul li {
   margin-left: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    padding: 0 1.6rem;
+  }
+
+  .header__body-text {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+  }
+
+  .header__body-image-food,
+  .header__body-image-pasta {
+    display: none;
+  }
 }
