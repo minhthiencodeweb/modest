@@ -344,6 +344,7 @@ a {
 
 .slider {
   margin-top: 3.8rem;
+  overflow: hidden;
 }
 
 .slick-slide {
