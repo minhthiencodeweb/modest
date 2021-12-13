@@ -468,29 +468,45 @@ a {
 .block_table {
   width: 786px;
   margin: auto;
+  display: flex;
+  margin-top: 50px;
 }
 
-td {
-  border: 1px solid #bebebe;
-  padding: 20px;
-  border-radius: 5px;
-  color: #9b9b9b;
-  font-weight: 300;
-}
-table {
-  border-spacing: 28px;
+.input_name{
+  height: 64px;
+  width: 377px;
+  border-radius: 0.4rem;
+  border: 2px solid #bebebe;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  margin: 13px 13px;
+  font-size: 15px;
+
 }
 
-.find_table {
-  background-color: #ffe001;
-  text-align: center;
-  border: 1px solid #ffe001;
+.button_find {
+  height: 64px;
+  width: 377px;
+  border-radius: 0.4rem;
+  font-size: 1.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  display: flex;
+  margin: 13px 13px;
+  align-items: center;
+  padding:12 ;
+  justify-content: center;
+
+
 }
 
-.active_FIND {
-  color: #000;
-  font-weight: 610;
+.button_find.button--yellow {
+  background-color: var(--color-yellow);
 }
+
+
+
+
 
 /* phần end */
 footer .block_end {
@@ -499,7 +515,7 @@ footer .block_end {
   background-size: cover;
   height: 582px;
   display: flex;
-  padding: 100px 100px;
+  padding: 80px 100px;
 }
 .block_end_left {
   width: 520px;
@@ -517,6 +533,7 @@ footer .block_end {
 .block_content_end_left {
   padding-top: 50px;
   margin-bottom: 167px;
+  width: 520px;
 }
 .block_content_end_left p {
   color: #fff;
@@ -572,7 +589,7 @@ footer .block_end {
 
 .listicon {
   padding-top: 180px;
-  padding-left: 300px;
+  padding-left: 250px;
 }
 
 .listicon ul {
