@@ -642,6 +642,167 @@ footer .block_end {
   margin-left: 15px;
 }
 
+.content_prep {
+  width: 100%;
+}
+/* reponsive */
+
+@media screen and (max-width: 1200px) {
+  .content_prep {
+    width: 100%;
+  }
+
+  .block_main {
+    width: 1200px;
+  }
+
+  .block_left {
+    height: 400px;
+    width: 500px;
+    background-size: cover;
+  }
+
+  .block_right {
+    height: 400px;
+    width: 500px;
+    margin-left: 20px;
+  }
+
+  .img_block_top {
+    background-size: cover;
+    width: 500px;
+    height: 194px;
+    margin-bottom: calc((400px - 388px));
+  }
+
+  .img_block_bottom {
+    width: 500px;
+    height: 194px;
+    background-size: cover;
+  }
+
+  .block_end {
+    height: 582px;
+    width: 100%;
+    background-size: cover;
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .content_prep {
+    width: 100%;
+  }
+  .listicon {
+    padding-left: 150px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .content_prep {
+    width: 992px;
+  }
+
+  .block_main {
+    width: 992px;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 12px;
+  }
+
+  .block_left {
+    height: 420px;
+    width: 600px;
+    background-size: cover;
+    margin-bottom: 12px;
+  }
+  .block_right {
+    height: 388px;
+    width: 600px;
+    margin-left: 0px;
+  }
+
+  .img_block_top {
+    background-size: cover;
+    width: 100%;
+  }
+
+  .img_block_bottom {
+    width: 100%;
+    background-size: cover;
+  }
+
+  .intable {
+    width: 992px;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+
+  .table_left {
+    width: 500px;
+    margin-right: 0px;
+  }
+
+  .table_right {
+    width: 500px;
+    margin-left: 0px;
+  }
+
+  .button_find {
+    width: 500px;
+  }
+
+  footer .block_end {
+    margin-top: 100px;
+    background-size: cover;
+    height: 582px;
+    width: 100%;
+    padding: auto;
+    flex-wrap: wrap;
+  }
+
+  .block_end_left {
+    text-align: center;
+    width: 500px;
+  }
+
+  .block_img_end_left {
+    width: 425px;
+    height: 97px;
+    text-align: center;
+    margin-left: 80px;
+  }
+
+  .block_img_end_left img {
+    width: 100%;
+  }
+
+  .block_end_right {
+    margin-top: 10px;
+
+    width: 500px;
+  }
+
+  .the_company {
+    margin-top: 15px;
+    color: white;
+  }
+  .location_right {
+    height: 90px;
+    width: 460px;
+    padding-top: 15px;
+    margin-left: 50px;
+  }
+
+  .location {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  .listicon {
+    padding-top: 15px;
+    padding-left: 250px;
+  }
+}
 @media (max-width: 1200px) {
   .container {
     padding: 0 1.6rem;
