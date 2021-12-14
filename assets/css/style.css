@@ -826,6 +826,66 @@ footer .block_end {
 
 }
 @media screen and (max-width: 980px){
+
+  .block_left h3 {
+    padding-top: 50px;
+    padding-left: 50px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+  }
+  .block_left h2 {
+    padding-left: 50px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+  }
+
+  .img_block_top h3 {
+    padding-top: 30px;
+    padding-left: 50px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+  }
+  
+  .img_block_top h2 {
+    padding-left: 50px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  .img_block_bottom h3 {
+    padding-top: 30px;
+    padding-left: 50px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+  }
+  
+  .img_block_bottom h2 {
+    padding-left: 50px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  .intable{
+
+    padding: 0 15px 0 15px;
+
+  
+  }
+
+
+
   .end_main{
     width: 100%;
     flex-wrap: wrap;
@@ -926,14 +986,13 @@ footer .block_end {
     justify-content: space-between;
   }
 
+
+
 }
 
 
 
-
-
-
-@media screen and (max-width: 730px){
+@media screen and (max-width: 730px) and (min-width:501px) {
   .block_main {
     width: 100%;
     flex-wrap: wrap;
@@ -956,6 +1015,11 @@ footer .block_end {
   .img_block_bottom {
     width: 477px;
     height: 153px;
+  }
+
+  .the_end_block{
+    padding-top: 40px;
+
   }
 
 
